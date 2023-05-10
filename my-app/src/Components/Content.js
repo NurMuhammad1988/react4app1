@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import List from './List';
 import Form from './Form';
+// import './App.css'
+
 
 class Content extends Component {
 
@@ -22,7 +24,53 @@ class Content extends Component {
             {
                 name: "Doston",
                 phone: 96969696
+            },
+
+            {
+                name: "Samshid",
+                phone: 98989898
+            },
+
+            {
+                name: "Sahtiyor",
+                phone: 23232323
+            },
+
+            {
+                name: "Silshod",
+                phone: 23232323
+            },
+
+            {
+                name: "Inom",
+                phone: 23232323
+            },
+
+            {
+                name: "Ichqun",
+                phone: 23232323
+            },
+
+            {
+                name: "Iosim",
+                phone: 23232323
+            },
+
+            {
+                name: "Vali",
+                phone: 23232323
+            },
+
+            {
+                name: "Hurshid",
+                phone: 23232323
+            },
+
+            {
+                name: "Sherzod",
+                phone: 23232323
             }
+
         ]
     };
 
@@ -37,10 +85,12 @@ class Content extends Component {
         )
     }
 
+
+
     render() {
         return (
 
-            <div className='contact'>
+            <div className='contact' style={{ color: 'blue' }}>
                 <List users={this.state.users} />
                 <Form addcontent={this.addcontent} />
 

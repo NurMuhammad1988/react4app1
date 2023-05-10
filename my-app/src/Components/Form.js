@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+ 
 class Form extends Component {
 
     constructor() {
@@ -10,7 +10,7 @@ class Form extends Component {
 
     state = {
         name: '',
-        phone: ''
+        phone: '+998 '
     }
 
     onChange2(e) {
@@ -25,7 +25,7 @@ class Form extends Component {
         this.props.addcontent({...this.state})
         this.setState({
             name: "",
-            phone: ""
+            phone: "+998 "
         })
     }
 
