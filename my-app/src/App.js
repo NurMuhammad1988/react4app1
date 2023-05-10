@@ -12,6 +12,8 @@ class App extends Component {
 
         <Content/>
 
+    {/*fixing */}
+
       </div>
 
     )
